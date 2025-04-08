@@ -70,14 +70,14 @@
   gap: 15px;
 }
 
-/* Main Content Area */
+
 .content {
   flex: 1;
   padding: 30px;
   margin-top: 80px;
 }
 
-/* Welcome Section */
+
 .welcome-section {
   margin-bottom: 30px;
 }
