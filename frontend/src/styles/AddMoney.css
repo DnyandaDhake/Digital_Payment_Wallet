@@ -1,0 +1,126 @@
+.add-money-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-money-container h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .add-money-container p {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+  }
+  
+  .add-money-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .add-money-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .add-money-form input[type="number"] {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .payment-methods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  
+  .method-option {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .method-option.active {
+    border-color: #6e8efb;
+    background-color: #f5f7ff;
+  }
+  
+  .method-option input {
+    display: none;
+  }
+  
+  .method-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .method-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .method-name {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .add-money-button {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-money-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-money-button:disabled {
+    background: #bdc3c7;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background-color: #fadbd8;
+    border-radius: 8px;
+  }
+  
+  .success-message {
+    color: #27ae60;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background-color: #d5f5e3;
+    border-radius: 8px;
+  }
+  select {
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
